@@ -1,3 +1,5 @@
 build
 .vscode
-CMakeList.txt.user
+CMakeLists.txt.user
+/Ex2/build
+/Ex2/CMakeLists.txt.user

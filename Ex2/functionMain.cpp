@@ -17,7 +17,7 @@ int main ()
     int sum = add(nbr1, nbr2);
     std::cout << std::endl << "The sum is " << sum << "." << std::endl;
 
-/*
+
     // Code for 2.1.2
     int res;
     add(nbr1, nbr2, res);
@@ -30,11 +30,20 @@ int main ()
 
 
     // Todo: Answer question 2.1.2
-    // (Your answer!)
+    // The variable shoud be declared by reference => void doubleNumber ( int& num ){ num = num * 2;}
 
 
 
     // Code for 2.2
+
+    std::cout << "Result of addNumbers(1, 2, 3, 4): "  << addNumbers(1, 2, 3, 4) << std::endl;
+    std::cout << "Result of addNumbers(1, 2, 3):    "  << addNumbers(1, 2, 3) << std::endl;
+    std::cout << "Result of addNumbers(1, 2):       "  << addNumbers(1, 2) << std::endl;
+    std::cout << "Result of addNumbers(1):          "  << addNumbers(1) << std::endl;
+    std::cout << "Result of addNumbers():           "  << addNumbers() << std::endl;
+    
+
+
 
     if( addNumbers(1, 2, 3, 4) != 10 )
         std::cout << std::endl << "Error: There is an issue with  addNumbers(1, 2, 3, 4)" << std::endl;
@@ -47,15 +56,17 @@ int main ()
     if( addNumbers() != 0 )
         std::cout << std::endl << "Error: There is an issue with  addNumbers(1)" << std::endl;
 
+    
 
 
     // Code for 2.3
-    std::cout << std::endl << "Output for 2.3" << std::endl;
+
+    
     printType(1);
     printType(1.0f);
     printType(1.0);
     printType("CLion");
-*/
+
 
     return 0;
 }
