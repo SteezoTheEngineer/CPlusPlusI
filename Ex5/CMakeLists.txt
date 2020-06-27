@@ -10,6 +10,7 @@ set(CMAKE_BUILD_TYPE "Debug")
 # Create executable using the specified source files
 add_executable(Ex5Main
     main.cpp
+    vector.h
     )
 
 # Define required c++ standard to C++11
